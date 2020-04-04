@@ -1,23 +1,12 @@
 @import '../variables.scss';
 
 .banner {
-    // background: yellow;
     height: 80vh;
     position: relative;
 
     @media (max-width: $widescreen) {
         height: 90vh;
     }
-
-    // .banner-first-bg {
-    //     background: $orange;
-    //     position: absolute;
-    //     left: 0;
-    //     right: 0;
-    //     top: 0;
-    //     bottom: 0;
-    //     height: 100%;
-    // }
 
     .banner-addition-bg {
         background: $black;
@@ -137,10 +126,6 @@
                     left: 0;
                     right: 0;
                     z-index: 9;
-
-                    @media (max-width: $widescreen) {
-                        // width: 400px;
-                    }
                 }
 
                 .feature-banner {
@@ -173,10 +158,3 @@
 
     }
 }
-
-// .dot {
-// height: 350px;
-// width: 350px;
-// background: #FFAB7A;
-// display: inline-block;
-// }
