@@ -1,0 +1,87 @@
+@import "../variables.scss";
+
+header {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  z-index: 10;
+
+  .container-fluid {
+    .header-inner {
+      position: relative;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+
+      .logo {
+        font-size: 1.875rem;
+        font-weight: 700;
+      }
+
+      .navigation {
+        position: absolute;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        margin: 0 auto;
+
+        nav {
+          ul {
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            padding: 0;
+
+            li {
+              list-style: none;
+              margin: 0 40px;
+              
+              @media (max-width: $widescreen) {
+                margin: 0 24px;
+              }
+
+              a {
+                font-size: 0.875rem;
+                padding: 8px 0;
+                text-decoration: none;
+                font-weight: 600;
+                color: $black;
+              }
+            }
+          }
+        }
+      }
+
+      .cart {
+        display: flex;
+        align-items: center;
+
+        .cart-icon {
+          img {
+            display: inline-block;
+            height: 24px;
+            width: auto;
+            line-height: 52px;
+            font-size: .875rem;
+            z-index:3;
+            transition: .2s ease-in-out;
+            &:hover {
+              background: $lOrange;
+              border-radius: 10%;
+              padding: 10 24px;
+            }
+            @media (max-width: $widescreen) {
+              padding: 0 24px;
+            }
+          }
+        }
+      }
+    
+      
+    }
+  }
+}

@@ -1,0 +1,104 @@
+@import "../variables.scss";
+
+
+.features {
+
+    .box2 {
+        // background: #ffa700;
+        // margin-top:10px;
+        height: 50px;
+        width: 200px;
+        // transform: skewX(5);
+        background: #ffa700;
+        display: inline-block;
+        // z-index: 4;
+    }
+
+    // .features-inner {
+    //     display: flex;
+    //     justify-content: space-between;
+    //     align-items: flex-start;
+
+    //     .features-content {
+    //         width: 33%;
+
+    //         @media (max-width: $widescreen) {
+    //             width: 40%;
+    //         }
+
+    //         h3 {
+    //             font-family: 'Amiri';
+    //             color: $black;
+    //             font-size: 2.6rem;
+    //             line-height: 3.4rem;
+    //             margin: 0 0 40px;
+    //         }
+
+    //         p {
+    //             line-height: 1.8rem;
+    //             font-weight: 300;
+    //             color: $black;
+    //             margin-bottom: 88px;
+
+    //             @media (max-width: $widescreen) {
+    //                 padding-right: 40px;
+    //             }
+    //         }
+
+    //         .btn-row {
+    //             a {
+    //                 color: $black;
+    //                 text-decoration: none;
+    //                 font-weight: 600;
+
+    //                 img {
+    //                     margin-left: 16px;
+    //                 }
+    //             }
+    //         }
+    //     }
+
+        .features-list {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+
+            ul {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                padding: 0;
+
+                li {
+                    list-style: none;
+
+                    img {
+                        margin-bottom: 24px
+                    }
+
+                    h5 {
+                        color: $black;
+                        font-weight: 600;
+                        font-size: 1.2rem;
+                        margin: 0;
+                    }
+
+                    p {
+                        line-height: 1.3rem;
+                        font-weight: 300;
+                        color: $black;
+                        width: 270px;
+                        margin: 16px 0 72px;
+                        font-size: 1rem;
+
+                        @media (max-width: $widescreen) {
+                            font-size: .875rem;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+// }

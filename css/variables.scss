@@ -1,0 +1,76 @@
+$mobile: "480px";
+$tablet: "768px";
+$laptop: "960px";
+$desktop: "1152px";
+$widescreen: "1440px";
+
+$black: #0A0A0A;
+$orange: #FFAB7A;
+$white: #F9F9F9;
+$grey: #2A2935;
+$purple: #DAD2D8;
+$lOrange: #FFE6D8;
+$green: #ACD6A7;
+$yellow: #FFE3B5;
+
+h1 {
+  font-family: 'Amiri';
+  font-weight: 25;
+  // color: $white;
+  // background: $black;
+  font-size: 60px;
+}
+
+body {
+  // background: $black;
+  font-family: 'Amiri';
+  height: 2000px;
+}
+
+
+.container {
+  width: 1345px;
+  min-width: 1345px;
+  margin: 0 auto;
+
+  @media (max-width: $widescreen) {
+    width: 1153px;
+    min-width: 1153px;
+  }
+
+  @media (max-width: $desktop) {
+    width: 961px;
+    min-width: 961px;
+  }
+
+  @media (max-width: $laptop) {
+    width: 767px;
+    min-width: 767px;
+  }
+
+  @media (max-width: $tablet) {
+    width: 481px;
+    min-width: 481px;
+  }
+
+  @media (max-width: $mobile) {
+    width: 320px;
+    min-width: 320px;
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+  }
+}
+
+.container-fluid {
+  padding: 0 48px;
+
+  .row {
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+  }
+}
