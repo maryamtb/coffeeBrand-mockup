@@ -1,7 +1,7 @@
 @import '../variables.scss';
 
 .banner {
-    // background: yellow;
+    background: yellow;
     height: 80vh;
     position: relative;
 
@@ -10,7 +10,7 @@
     }
 
     .banner-first-bg {
-        // background: $orange;
+        background: $orange;
         position: absolute;
         left: 0;
         right: 0;
@@ -20,7 +20,7 @@
     }
 
     .banner-addition-bg {
-        // background: $orange;
+        background: $orange;
         position: absolute;
         left: 0;
         right: 0;
@@ -30,7 +30,7 @@
     }
 
     .banner-bg {
-        // background: $black;
+        background: $black;
         position: absolute;
         left: 0;
         right: 0;
