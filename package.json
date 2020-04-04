@@ -8,10 +8,6 @@
     "build": "nodemon --exec babel-node ./js/* ",
     "start": "concurrently \"npm run watch\" \"npm run build\""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/maryamtb/agency.git"
-  },
   "author": "MTB",
   "license": "ISC",
   "bugs": {
