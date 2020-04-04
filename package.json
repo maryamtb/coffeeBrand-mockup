@@ -1,0 +1,32 @@
+{
+  "name": "agency",
+  "version": "1.0.0",
+  "description": "Next generation digital solutions.",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node-sass --watch css/style.scss css/style.css",
+    "build": "nodemon --exec babel-node ./js/* ",
+    "start": "concurrently \"npm run watch\" \"npm run build\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maryamtb/agency.git"
+  },
+  "author": "MTB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maryamtb/agency/issues"
+  },
+  "homepage": "https://github.com/maryamtb/agency#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "concurrently": "^5.1.0",
+    "gsap": "^3.2.6",
+    "node-sass": "^4.13.1"
+  }
+}
