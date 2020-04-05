@@ -17,8 +17,10 @@ const bannerTL = gsap.timeline();
 bannerTL
   .from([bannerAddition, banner], {
     duration: 1.2,
-    width: 0,
-    skewX: 0.2,
+    // width: 50,
+    y: 1440,
+    x: 0,
+    // skewX: 0,
     ease: "power3.inOut",
     stagger: {
       amount: 0.2,

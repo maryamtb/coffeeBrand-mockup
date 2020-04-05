@@ -13,6 +13,7 @@ $lOrange: #FFE6D8;
 $green: #ACD6A7;
 $yellow: #FFE3B5;
 
+
 h1 {
   font-family: 'Amiri';
   font-weight: 25;
@@ -27,6 +28,8 @@ body {
 
   font-family: 'Amiri';
   height: 2000px;
+
+
 }
 
 
@@ -34,6 +37,7 @@ body {
   width: 1345px;
   min-width: 1345px;
   margin: 0 auto;
+  
 
   @media (max-width: $widescreen) {
     width: 1153px;

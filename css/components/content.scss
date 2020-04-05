@@ -99,6 +99,8 @@
                         background: $black;
                         border-radius: 140px;
                         &:hover {
+                            cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAAA5klEQVRIie3UMU4CQRTG8R+cgIrKhsQbcAUbQ2LPQYyViVcwnoIDWFnScQJrIUYSSYDExsKlAJqFZXBmWYPZL3nVzLz/9yVvHrX2q4cJxriuEjxGtqm3Mho2jryXRb4rVDO1QQ2uwWWDK/vXWa7y//pkRvLgkJEbvJdhJATO17fApovdXL/VDufspvr8wR08Y2k9GK94QvfUBkaKJ/TlwNmxtaNt4o+iC7hKyxTWJR7xJT1hMPE+tTcGKgdvdfdXYHgoATqPAcM9fhLAg1gw9DGLgH7iIgUMLdxiiGkAuLBOmgz9P1oBd4bGtnAvsNwAAAAASUVORK5CYII="), auto;
+                            transition: .2s ease-in-out;
                             background: $lOrange;
                             border-radius: 0%;
                             color: black;
