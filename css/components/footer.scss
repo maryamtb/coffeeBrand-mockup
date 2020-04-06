@@ -1,0 +1,11 @@
+@import '../variables.scss';
+
+
+#footer {
+    p {
+        bottom: 0;
+        right: 10;
+        font-size: 10.5;
+        position: fixed;
+    }
+}

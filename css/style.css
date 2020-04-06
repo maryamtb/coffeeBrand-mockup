@@ -240,7 +240,7 @@ body {
             background: #FFE6D8;
             border-radius: 0%;
             color: black;
-            padding: 15px 32px; }
+            padding: 15px 100px; }
     .banner .banner-inner .image {
       position: relative;
       width: 40%;
@@ -280,3 +280,58 @@ body {
           @media (max-width: 1440px) {
             .banner .banner-inner .image .image-inner .feature-banner.green {
               right: -20px; } }
+
+* {
+  cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAA3UlEQVRIid3UIW/CQBQA4G9jmZydw88NMzG3H4LoDJaEoadJ8AsJkws/Ao+ZI5j9AjSChCAooiVpIIz22hqeu3d9/S6X945rjhb6uK0L+EKM7zLIf4WHvXeMQ5G8RVEoUqQgCCl6osJIyL0WQkK7IzdSpsdzIWWH6CJSxZRG6J3bvAv44QyLzHqHaVlghz88YYNOwMFOYiR5i2J08ZpZv1QBHB67QSb3m+Z+qgCe8YGbTK6dAls0q0CO4x7LFBnWAcBnCqzwUAfwKOmkGG+XPm4EAGvMJbMwkbTwFcceykwrHBOkPnoAAAAASUVORK5CYII"), auto; }
+
+h1 {
+  font-family: 'Amiri';
+  font-weight: 25;
+  font-size: 60px; }
+
+body {
+  background: #d6af88;
+  font-family: 'Amiri';
+  height: 2000px; }
+
+.container {
+  width: 1345px;
+  min-width: 1345px;
+  margin: 0 auto; }
+  @media (max-width: 1440px) {
+    .container {
+      width: 1153px;
+      min-width: 1153px; } }
+  @media (max-width: 1152px) {
+    .container {
+      width: 961px;
+      min-width: 961px; } }
+  @media (max-width: 960px) {
+    .container {
+      width: 767px;
+      min-width: 767px; } }
+  @media (max-width: 768px) {
+    .container {
+      width: 481px;
+      min-width: 481px; } }
+  @media (max-width: 480px) {
+    .container {
+      width: 320px;
+      min-width: 320px; } }
+  .container .row {
+    display: flex;
+    align-items: center;
+    padding: 0 16px; }
+
+.container-fluid {
+  padding: 0 48px; }
+  .container-fluid .row {
+    display: flex;
+    align-items: center;
+    padding: 0 16px; }
+
+#footer p {
+  bottom: 0;
+  right: 10;
+  font-size: 10.5;
+  position: fixed; }
