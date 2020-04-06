@@ -3,7 +3,6 @@ const header = document.querySelector("#header");
 const bannerAddition = document.querySelector("#bannerBgAddition");
 const banner = document.querySelector("#bannerBg");
 
-
 const contentP = document.querySelector(".content-inner p");
 const contentButton = document.querySelector(".content-inner .btn-row");
 

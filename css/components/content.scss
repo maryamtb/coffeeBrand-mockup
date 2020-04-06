@@ -44,6 +44,7 @@
             width: 60%;
             height: 100%;
             display: flex;
+            justify-content: center;
             align-items: center;
 
             .content-inner {
@@ -87,24 +88,29 @@
 
                 .btn-row {
                     a {
-                        // display: inline-block;
                         // height: 56px;
                         // line-height: 56px;
+                        align-items: center;
+                        justify-content: center;
                         font-size: 1.0rem;
                         padding: 15px 32px;
                         text-decoration: none;
                         font-family: 'Amiri';
                         font-weight: 200;
                         color: $white;
+                        margin-left: 115;
                         background: $black;
                         border-radius: 140px;
+                        @media (max-width: $widescreen) {
+                            left: 30
+                        }
                         &:hover {
                             cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAAA5klEQVRIie3UMU4CQRTG8R+cgIrKhsQbcAUbQ2LPQYyViVcwnoIDWFnScQJrIUYSSYDExsKlAJqFZXBmWYPZL3nVzLz/9yVvHrX2q4cJxriuEjxGtqm3Mho2jryXRb4rVDO1QQ2uwWWDK/vXWa7y//pkRvLgkJEbvJdhJATO17fApovdXL/VDufspvr8wR08Y2k9GK94QvfUBkaKJ/TlwNmxtaNt4o+iC7hKyxTWJR7xJT1hMPE+tTcGKgdvdfdXYHgoATqPAcM9fhLAg1gw9DGLgH7iIgUMLdxiiGkAuLBOmgz9P1oBd4bGtnAvsNwAAAAASUVORK5CYII="), auto;
                             transition: .2s ease-in-out;
                             background: $lOrange;
                             border-radius: 0%;
                             color: black;
-                            padding: 20px 165px;
+                            padding: 15px 32px;
                         }
                     }
                 }
