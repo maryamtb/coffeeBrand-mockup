@@ -1,11 +1,57 @@
 @import '../variables.scss';
 
+.footer {
+    background: #d6af88;
+    position: absolute;
+    top: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 0px;
+    padding: 2px 2px;
+    width: 100%;
+    height: 10vw;
+    overflow: hidden;
+    color: black;
+    z-index: 20;
 
-#footer {
+}
+
+.footer-text {
+    p {
+        // bottom: 0;
+        top: 1430;
+        z-index: 20;
+        // left: 45%;
+        // text-align: center;
+        // width: 100%;
+        overflow: hidden;
+        // right: 45%;
+        font-size: 25px;
+        font-weight: 100;
+        position: absolute;
+        // text-align: center;
+        // justify-content: center;
+        // top: 2000;
+        // z-index: 20;
+
+        color: white;
+        // text-align: center;
+        // bottom: 0;
+    }
+}
+
+#label {
     p {
         bottom: 0;
         right: 10;
         font-size: 10.5;
         position: fixed;
+        color: $white;
+        z-index: 10;
+        a {
+            text-decoration: none;
+            color: $white;
+        }
     }
 }

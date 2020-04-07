@@ -10,6 +10,14 @@ const h1Line = document.querySelector(".line span");
 
 const grain = document.querySelector(".image-inner img");
 
+const formulas = document.querySelector(".formulas");
+
+const formulaT = document.querySelector(".formula-title h1");
+const formulaCT = document.querySelectorAll(".selection h2");
+const formulaCP = document.querySelectorAll(".selection p");
+
+const spinner = document.querySelector(".footer-text p");
+
 const bannerTL = gsap.timeline();
 
 bannerTL
@@ -47,6 +55,11 @@ bannerTL
     stagger: {
       amount: 0.2,
     },
+  })
+  .to(formulas, {
+    delay: 2.2,
+    duration: 0.8,
+    ease: "expo.inOut",
   });
 
 gsap.from(grain, {
@@ -57,3 +70,50 @@ gsap.from(grain, {
   opacity: 0,
   ease: "power3.out",
 });
+
+const formulaTL = gsap.timeline();
+
+formulaTL
+  .from(formulaT, {
+    delay: 0.6,
+    opacity: 0,
+    y: 10,
+    duration: 0.6,
+    ease: "power3.out",
+    stagger: {
+      amount: 1,
+    },
+  })
+  .from([formulaCP, formulaCT], {
+    delay: -0.4,
+    opacity: 0,
+    y: 30,
+    duration: 0.8,
+    ease: "power3.out",
+    stagger: {
+      amount: 0.4,
+    },
+  // }).from(spinner, {
+  //   delay: -0.4,
+  //   opacity: 0.4,
+  //   x:-900,
+  //   duration: 0.9,
+  //   ease: "power3.inOut",
+  //   stagger: {
+  //     amount: 0.4
+  //   }
+  });
+
+  TweenMax.to(spinner, 2, {x:1400, repeat:-1, ease:"power3.out"});
+
+
+const controller = new ScrollMagic.Controller();
+
+const scene = new ScrollMagic.Scene({
+  triggerElement: "#shop",
+  triggerHook: 0,
+  reverse: false,
+})
+  // .addIndicators()
+  .setTween(formulaTL)
+  .addTo(controller);
