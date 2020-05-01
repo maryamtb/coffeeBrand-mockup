@@ -3,6 +3,8 @@
 .banner {
     // height: 100vh;
     position: center;
+    overflow: hidden;
+    height: 70vh;
 
     @media (max-width: $widescreen) {
         height: 90vh;
@@ -30,7 +32,7 @@
 
     .banner-inner {
         width: 100%;
-        height: 80vh;
+        height: 100vh;
         display: flex;
         position: relative;
 
@@ -118,9 +120,8 @@
         }
 
         .image {
-            position: relative;
-            width: 40%;
-            height: 100%;
+            width: 340%;
+            height: 105%;
             display: flex;
             justify-content: center;
             align-items: flex-end;
@@ -128,11 +129,10 @@
             .image-inner {
                 img {
                     width: 550px;
-                    position: absolute;
+                    position: relative;
                     bottom: 0;
                     left: 0;
                     right: 0;
-                    z-index: 9;
                 }
 
             }
