@@ -1,7 +1,7 @@
 @import '../variables.scss';
 
 .banner {
-    // height: 100vh;
+    height: 100vh;
     position: center;
 
     @media (max-width: $widescreen) {

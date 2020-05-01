@@ -16,8 +16,6 @@ const formulaT = document.querySelector(".formula-title h1");
 const formulaCT = document.querySelectorAll(".selection h2");
 const formulaCP = document.querySelectorAll(".selection p");
 
-const spinner = document.querySelector(".footer-text p");
-
 const bannerTL = gsap.timeline();
 
 bannerTL
@@ -93,18 +91,7 @@ formulaTL
     stagger: {
       amount: 0.4,
     },
-  // }).from(spinner, {
-  //   delay: -0.4,
-  //   opacity: 0.4,
-  //   x:-900,
-  //   duration: 0.9,
-  //   ease: "power3.inOut",
-  //   stagger: {
-  //     amount: 0.4
-  //   }
   });
-
-  TweenMax.to(spinner, 2, {x:1400, repeat:-1, ease:"power3.out"});
 
 
 const controller = new ScrollMagic.Controller();
