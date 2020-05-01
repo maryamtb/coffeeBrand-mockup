@@ -114,6 +114,6 @@ const scene = new ScrollMagic.Scene({
   triggerHook: 0,
   reverse: false,
 })
-  .addIndicators()
+  // .addIndicators()
   .setTween(formulaTL)
   .addTo(controller);
